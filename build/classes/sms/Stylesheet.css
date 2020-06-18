@@ -1,0 +1,11 @@
+   
+
+.f{
+    -fx-background-image:url('aa.jpg');
+    -fx-background-size: cover;
+    
+       
+}
+.close:hover{
+  -fx-background-color: white;
+}

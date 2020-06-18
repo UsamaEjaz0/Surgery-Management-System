@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1000.0" styleClass="f" stylesheets="@Stylesheet.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="sms.MainScreenController">
+   <children>
+      <Label layoutX="17.0" layoutY="23.0" prefHeight="81.0" prefWidth="965.0" style="-fx-background-color: #63bfe0;" text="    Surgery Management System" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="122.0" prefHeight="52.0" prefWidth="116.0" style="-fx-background-color: white;" text="Login As" textFill="#63bfe0">
+         <font>
+            <Font name="Calibri" size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="195.0" layoutY="400.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="197.0" style="-fx-background-color: white;" text="Admin" textFill="#63bfe0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutX="423.0" layoutY="401.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="197.0" style="-fx-background-color: white;" text="Doctor" textFill="#63bfe0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutX="651.0" layoutY="400.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="197.0" style="-fx-background-color: white;" text="Receptionist" textFill="#63bfe0">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
